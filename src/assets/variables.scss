@@ -1,0 +1,9 @@
+/** 
+  These overrides do not become part of the published library.
+  They need to be overridden at the component level if they should
+  be enforced in every usage of the component. Each project will have
+  a similar file to this where global overrides can be applied, and
+  those changes will impact the component library usage
+**/
+
+@import '~vuetify/src/styles/styles.sass';
